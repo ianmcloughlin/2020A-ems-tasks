@@ -109,7 +109,7 @@
         Write a Python function called \mintinline{python}{sqrt2} that calculates and prints to the screen the square root of 2 to 100 decimal places.
         Your code should not depend on any module from the standard library\footnote{By the standard library, we mean the modules and packages that come as standard with Python. Anything built-in that can be used without an \mintinline{python}{import} statement can be used.} or otherwise.
         You should research the task first and include references and a description of your algorithm.
-        \item
+      \item
         \textbf{November 2\textsuperscript{nd}, 2020:}
         The Chi-squared test for independence is a statistical hypothesis test like a $t$-test.
         It is used to analyse whether two categorical variables are independent.
@@ -132,14 +132,19 @@
           \end{tabular}
         \end{table}
         \newpage
-        \item
-          \textbf{November 16\textsuperscript{th}, 2020:}
-          The standard deviation of an array of numbers \mintinline{python}{x} is calculated using \mintinline{python}{numpy} as \mintinline{python}{np.sqrt(np.sum((x - np.mean(x))**2)/len(x))}.
-          However, Microsoft Excel has two different versions of the standard deviation calculation, \mintinline{python}{STDEV.P} and \mintinline{python}{STDEV.S}.
-          The \mintinline{python}{STDEV.P} function performs the above calculation but in the \mintinline{python}{STDEV.S} calculation the division is by \mintinline{python}{len(x)-1} rather than \mintinline{python}{len(x)}.
-          Research these Excel functions, writing a note in a Markdown cell about the difference between them.
-          Then use \mintinline{python}{numpy} to perform a simulation demonstrating that the \mintinline{python}{STDEV.S} calculation is a better estimate for the standard deviation of a population when performed on a sample.
-          Note that part of this task is to figure out the terminology in the previous sentence.
+      \item
+        \textbf{November 16\textsuperscript{th}, 2020:}
+        The standard deviation of an array of numbers \mintinline{python}{x} is calculated using \mintinline{python}{numpy} as \mintinline{python}{np.sqrt(np.sum((x - np.mean(x))**2)/len(x))}.
+        However, Microsoft Excel has two different versions of the standard deviation calculation, \mintinline{python}{STDEV.P} and \mintinline{python}{STDEV.S}.
+        The \mintinline{python}{STDEV.P} function performs the above calculation but in the \mintinline{python}{STDEV.S} calculation the division is by \mintinline{python}{len(x)-1} rather than \mintinline{python}{len(x)}.
+        Research these Excel functions, writing a note in a Markdown cell about the difference between them.
+        Then use \mintinline{python}{numpy} to perform a simulation demonstrating that the \mintinline{python}{STDEV.S} calculation is a better estimate for the standard deviation of a population when performed on a sample.
+        Note that part of this task is to figure out the terminology in the previous sentence.
+      \item
+        \textbf{November 30\textsuperscript{th}, 2020:}
+        Use \mintinline{python}{scikit-learn} to apply $k$-means clustering to Fisher's famous Iris data set.
+        You will easily obtain a copy of the data set online.
+        Explain in a Markdown cell how your code works and how accurate it might be, and then explain how your model could be used to make predictions of species of iris.
     \end{enumerate}
 
   \newpage
